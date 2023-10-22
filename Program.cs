@@ -18,10 +18,10 @@ namespace ConsoleApp8
             {
                 for (x = 1; x <= num * 2 - 1; x++)
                 {
-                    int distanceX = x > num ? x - num : num - x;
-                    int distanceY = y > num ? y - num : num - y;
+                    int dX = x > num ? x - num : num - x;
+                    int dY = y > num ? y - num : num - y;
 
-                    if (distanceX == distanceY)
+                    if (dX == dY)
                     {
                         Console.Write("*");
                     }
